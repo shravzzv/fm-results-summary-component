@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="results">
+      <aside class="results__aside">
+        <p class="results__title">Your Result</p>
+
+        <div class="results__score">
+          <h1 class="results__score-value">76</h1>
+          <span class="results__score-total">of 100</span>
+        </div>
+
+        <h2 class="results__feedback">Great</h2>
+        <p class="results__description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </aside>
+
+      <main class="results__main">
+        <p class="results__summary-title">Summary</p>
+
+        <div class="results__categories">
+          <div class="results__category results__category--red">
+            <div class="results__header">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt=""
+                class="results__icon"
+              />
+              <span class="results__heading results__heading--red"
+                >Reaction</span
+              >
+            </div>
+            <div class="results__marks">
+              <span class="results__marks-achieved">80</span>
+              <span>/</span>
+              <span class="results__marks-max">100</span>
+            </div>
+          </div>
+
+          <div class="results__category results__category--yellow">
+            <div class="results__header">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt=""
+                class="results__icon"
+              />
+              <span class="results__heading results__heading--yellow"
+                >Memory</span
+              >
+            </div>
+            <div class="results__marks">
+              <span class="results__marks-achieved">92</span>
+              <span>/</span>
+              <span class="results__marks-max">100</span>
+            </div>
+          </div>
+
+          <div class="results__category results__category--green">
+            <div class="results__header">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt=""
+                class="results__icon"
+              />
+              <span class="results__heading results__heading--green"
+                >Verbal</span
+              >
+            </div>
+            <div class="results__marks">
+              <span class="results__marks-achieved">61</span>
+              <span>/</span>
+              <span class="results__marks-max">100</span>
+            </div>
+          </div>
+
+          <div class="results__category results__category--blue">
+            <div class="results__header">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt=""
+                class="results__icon"
+              />
+              <span class="results__heading results__heading--blue"
+                >Visual</span
+              >
+            </div>
+            <div class="results__marks">
+              <span class="results__marks-achieved">73</span>
+              <span>/</span>
+              <span class="results__marks-max">100</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="results__button">Continue</button>
+      </main>
+    </div>
+  </body>
+</html>
